@@ -19,6 +19,7 @@ Let's look at an example to see what this means.
 
 Before we get started, make sure that you run `rake db:seed` to seed the database. This will give us some posts and authors. Because we want to focus on partials, you'll notice some hard-coding in the controller. In the `posts#create` action, we've hard-coded that every new post created is linked to the very first author in the database.
 
+
 OK, let's dive in!
 
 This is the code in the `posts#new` form:
